@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PuzzleActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/teks_puzzle"
+        android:textColor="#CC0905"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonA"
+        style="@style/ButtonStyle"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/a"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonB"
+        style="@style/ButtonStyle"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/b"
+        app:layout_constraintEnd_toStartOf="@+id/buttonC"
+        app:layout_constraintStart_toEndOf="@+id/buttonA"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonC"
+        style="@style/ButtonStyle"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/c"
+        app:layout_constraintEnd_toStartOf="@+id/buttonD"
+        app:layout_constraintStart_toEndOf="@+id/buttonB"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonD"
+        style="@style/ButtonStyle"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/d"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonE"
+        style="@style/ButtonStyle"
+        android:text="@string/e"
+        app:layout_constraintStart_toStartOf="@+id/buttonA"
+        app:layout_constraintTop_toBottomOf="@+id/buttonA"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonF"
+        style="@style/ButtonStyle"
+        android:text="@string/f"
+        app:layout_constraintStart_toStartOf="@+id/buttonB"
+        app:layout_constraintTop_toBottomOf="@+id/buttonB"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonG"
+        style="@style/ButtonStyle"
+        android:text="@string/g"
+        app:layout_constraintStart_toStartOf="@+id/buttonC"
+        app:layout_constraintTop_toBottomOf="@+id/buttonC"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonH"
+        style="@style/ButtonStyle"
+        android:text="@string/h"
+        app:layout_constraintStart_toStartOf="@+id/buttonD"
+        app:layout_constraintTop_toBottomOf="@+id/buttonD"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonI"
+        style="@style/ButtonStyle"
+        android:text="@string/i"
+        app:layout_constraintStart_toStartOf="@+id/buttonE"
+        app:layout_constraintTop_toBottomOf="@+id/buttonE"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonJ"
+        style="@style/ButtonStyle"
+        android:text="@string/j"
+        app:layout_constraintStart_toStartOf="@+id/buttonF"
+        app:layout_constraintTop_toBottomOf="@+id/buttonF"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonK"
+        style="@style/ButtonStyle"
+        android:text="@string/k"
+        app:layout_constraintStart_toStartOf="@+id/buttonG"
+        app:layout_constraintTop_toBottomOf="@+id/buttonG"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonL"
+        style="@style/ButtonStyle"
+        android:text="@string/l"
+        app:layout_constraintStart_toStartOf="@+id/buttonH"
+        app:layout_constraintTop_toBottomOf="@+id/buttonH"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonM"
+        style="@style/ButtonStyle"
+        android:text="@string/m"
+        app:layout_constraintStart_toStartOf="@+id/buttonI"
+        app:layout_constraintTop_toBottomOf="@+id/buttonI"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonN"
+        style="@style/ButtonStyle"
+        android:text="@string/n"
+        app:layout_constraintStart_toStartOf="@+id/buttonJ"
+        app:layout_constraintTop_toBottomOf="@+id/buttonJ"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonO"
+        style="@style/ButtonStyle"
+        android:text="@string/o"
+        app:layout_constraintStart_toStartOf="@+id/buttonK"
+        app:layout_constraintTop_toBottomOf="@+id/buttonK"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonP"
+        style="@style/ButtonStyle"
+        app:layout_constraintStart_toStartOf="@+id/buttonL"
+        app:layout_constraintTop_toBottomOf="@+id/buttonL"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

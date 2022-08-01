@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Aplikasi Puzzle</string>
+    <string name="teks_awal">Anila Dwi Lestari\nKelas JMP-A Telkom University</string>
+    <string name="todo">TODO</string>
+    <string name="teks_puzzle">PUZZLE HURUF</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="e">E</string>
+    <string name="f">F</string>
+    <string name="g">G</string>
+    <string name="h">H</string>
+    <string name="i">I</string>
+    <string name="j">J</string>
+    <string name="k">K</string>
+    <string name="l">L</string>
+    <string name="m">M</string>
+    <string name="n">N</string>
+    <string name="o">O</string>
+</resources>
